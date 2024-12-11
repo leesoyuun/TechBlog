@@ -1,14 +1,14 @@
 import React from "react";
 import Main from "./pages/Main/Main";
+import GlobalStyle from "./Global";
 
 function App() {
   return (
-    <div className="App">
+    <>
+      <GlobalStyle />
       <Main></Main>
-    </div>
+    </>
   );
 }
 
 export default App;
-
-
